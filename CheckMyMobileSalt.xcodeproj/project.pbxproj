@@ -1,0 +1,610 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5500E7CB273FA8EB00099274 /* CheckMyMobileSaltApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5500E7CA273FA8EB00099274 /* CheckMyMobileSaltApp.swift */; };
+		5500E7CD273FA8EB00099274 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5500E7CC273FA8EB00099274 /* ContentView.swift */; };
+		5500E7CF273FA8EF00099274 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5500E7CE273FA8EF00099274 /* Assets.xcassets */; };
+		5500E7D2273FA8EF00099274 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5500E7D1273FA8EF00099274 /* Preview Assets.xcassets */; };
+		5500E7DC273FA8EF00099274 /* CheckMyMobileSaltTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5500E7DB273FA8EF00099274 /* CheckMyMobileSaltTests.swift */; };
+		5500E7E6273FA8EF00099274 /* CheckMyMobileSaltUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5500E7E5273FA8EF00099274 /* CheckMyMobileSaltUITests.swift */; };
+		5500E7E8273FA8EF00099274 /* CheckMyMobileSaltUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5500E7E7273FA8EF00099274 /* CheckMyMobileSaltUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5500E7D8273FA8EF00099274 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5500E7BF273FA8EB00099274 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5500E7C6273FA8EB00099274;
+			remoteInfo = CheckMyMobileSalt;
+		};
+		5500E7E2273FA8EF00099274 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5500E7BF273FA8EB00099274 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5500E7C6273FA8EB00099274;
+			remoteInfo = CheckMyMobileSalt;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		5500E7C7273FA8EB00099274 /* CheckMyMobileSalt.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CheckMyMobileSalt.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5500E7CA273FA8EB00099274 /* CheckMyMobileSaltApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckMyMobileSaltApp.swift; sourceTree = "<group>"; };
+		5500E7CC273FA8EB00099274 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		5500E7CE273FA8EF00099274 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5500E7D1273FA8EF00099274 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		5500E7D7273FA8EF00099274 /* CheckMyMobileSaltTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CheckMyMobileSaltTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5500E7DB273FA8EF00099274 /* CheckMyMobileSaltTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckMyMobileSaltTests.swift; sourceTree = "<group>"; };
+		5500E7E1273FA8EF00099274 /* CheckMyMobileSaltUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CheckMyMobileSaltUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5500E7E5273FA8EF00099274 /* CheckMyMobileSaltUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckMyMobileSaltUITests.swift; sourceTree = "<group>"; };
+		5500E7E7273FA8EF00099274 /* CheckMyMobileSaltUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckMyMobileSaltUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5500E7C4273FA8EB00099274 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5500E7D4273FA8EF00099274 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5500E7DE273FA8EF00099274 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5500E7BE273FA8EB00099274 = {
+			isa = PBXGroup;
+			children = (
+				5500E7C9273FA8EB00099274 /* CheckMyMobileSalt */,
+				5500E7DA273FA8EF00099274 /* CheckMyMobileSaltTests */,
+				5500E7E4273FA8EF00099274 /* CheckMyMobileSaltUITests */,
+				5500E7C8273FA8EB00099274 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5500E7C8273FA8EB00099274 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5500E7C7273FA8EB00099274 /* CheckMyMobileSalt.app */,
+				5500E7D7273FA8EF00099274 /* CheckMyMobileSaltTests.xctest */,
+				5500E7E1273FA8EF00099274 /* CheckMyMobileSaltUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5500E7C9273FA8EB00099274 /* CheckMyMobileSalt */ = {
+			isa = PBXGroup;
+			children = (
+				5500E7CA273FA8EB00099274 /* CheckMyMobileSaltApp.swift */,
+				5500E7CC273FA8EB00099274 /* ContentView.swift */,
+				5500E7CE273FA8EF00099274 /* Assets.xcassets */,
+				5500E7D0273FA8EF00099274 /* Preview Content */,
+			);
+			path = CheckMyMobileSalt;
+			sourceTree = "<group>";
+		};
+		5500E7D0273FA8EF00099274 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				5500E7D1273FA8EF00099274 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		5500E7DA273FA8EF00099274 /* CheckMyMobileSaltTests */ = {
+			isa = PBXGroup;
+			children = (
+				5500E7DB273FA8EF00099274 /* CheckMyMobileSaltTests.swift */,
+			);
+			path = CheckMyMobileSaltTests;
+			sourceTree = "<group>";
+		};
+		5500E7E4273FA8EF00099274 /* CheckMyMobileSaltUITests */ = {
+			isa = PBXGroup;
+			children = (
+				5500E7E5273FA8EF00099274 /* CheckMyMobileSaltUITests.swift */,
+				5500E7E7273FA8EF00099274 /* CheckMyMobileSaltUITestsLaunchTests.swift */,
+			);
+			path = CheckMyMobileSaltUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5500E7C6273FA8EB00099274 /* CheckMyMobileSalt */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5500E7EB273FA8EF00099274 /* Build configuration list for PBXNativeTarget "CheckMyMobileSalt" */;
+			buildPhases = (
+				5500E7C3273FA8EB00099274 /* Sources */,
+				5500E7C4273FA8EB00099274 /* Frameworks */,
+				5500E7C5273FA8EB00099274 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CheckMyMobileSalt;
+			productName = CheckMyMobileSalt;
+			productReference = 5500E7C7273FA8EB00099274 /* CheckMyMobileSalt.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5500E7D6273FA8EF00099274 /* CheckMyMobileSaltTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5500E7EE273FA8EF00099274 /* Build configuration list for PBXNativeTarget "CheckMyMobileSaltTests" */;
+			buildPhases = (
+				5500E7D3273FA8EF00099274 /* Sources */,
+				5500E7D4273FA8EF00099274 /* Frameworks */,
+				5500E7D5273FA8EF00099274 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5500E7D9273FA8EF00099274 /* PBXTargetDependency */,
+			);
+			name = CheckMyMobileSaltTests;
+			productName = CheckMyMobileSaltTests;
+			productReference = 5500E7D7273FA8EF00099274 /* CheckMyMobileSaltTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		5500E7E0273FA8EF00099274 /* CheckMyMobileSaltUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5500E7F1273FA8EF00099274 /* Build configuration list for PBXNativeTarget "CheckMyMobileSaltUITests" */;
+			buildPhases = (
+				5500E7DD273FA8EF00099274 /* Sources */,
+				5500E7DE273FA8EF00099274 /* Frameworks */,
+				5500E7DF273FA8EF00099274 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5500E7E3273FA8EF00099274 /* PBXTargetDependency */,
+			);
+			name = CheckMyMobileSaltUITests;
+			productName = CheckMyMobileSaltUITests;
+			productReference = 5500E7E1273FA8EF00099274 /* CheckMyMobileSaltUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5500E7BF273FA8EB00099274 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1310;
+				LastUpgradeCheck = 1310;
+				TargetAttributes = {
+					5500E7C6273FA8EB00099274 = {
+						CreatedOnToolsVersion = 13.1;
+					};
+					5500E7D6273FA8EF00099274 = {
+						CreatedOnToolsVersion = 13.1;
+						TestTargetID = 5500E7C6273FA8EB00099274;
+					};
+					5500E7E0273FA8EF00099274 = {
+						CreatedOnToolsVersion = 13.1;
+						TestTargetID = 5500E7C6273FA8EB00099274;
+					};
+				};
+			};
+			buildConfigurationList = 5500E7C2273FA8EB00099274 /* Build configuration list for PBXProject "CheckMyMobileSalt" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5500E7BE273FA8EB00099274;
+			productRefGroup = 5500E7C8273FA8EB00099274 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5500E7C6273FA8EB00099274 /* CheckMyMobileSalt */,
+				5500E7D6273FA8EF00099274 /* CheckMyMobileSaltTests */,
+				5500E7E0273FA8EF00099274 /* CheckMyMobileSaltUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5500E7C5273FA8EB00099274 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5500E7D2273FA8EF00099274 /* Preview Assets.xcassets in Resources */,
+				5500E7CF273FA8EF00099274 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5500E7D5273FA8EF00099274 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5500E7DF273FA8EF00099274 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5500E7C3273FA8EB00099274 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5500E7CD273FA8EB00099274 /* ContentView.swift in Sources */,
+				5500E7CB273FA8EB00099274 /* CheckMyMobileSaltApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5500E7D3273FA8EF00099274 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5500E7DC273FA8EF00099274 /* CheckMyMobileSaltTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5500E7DD273FA8EF00099274 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5500E7E6273FA8EF00099274 /* CheckMyMobileSaltUITests.swift in Sources */,
+				5500E7E8273FA8EF00099274 /* CheckMyMobileSaltUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5500E7D9273FA8EF00099274 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5500E7C6273FA8EB00099274 /* CheckMyMobileSalt */;
+			targetProxy = 5500E7D8273FA8EF00099274 /* PBXContainerItemProxy */;
+		};
+		5500E7E3273FA8EF00099274 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5500E7C6273FA8EB00099274 /* CheckMyMobileSalt */;
+			targetProxy = 5500E7E2273FA8EF00099274 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		5500E7E9273FA8EF00099274 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		5500E7EA273FA8EF00099274 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5500E7EC273FA8EF00099274 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"CheckMyMobileSalt/Preview Content\"";
+				DEVELOPMENT_TEAM = 32Z9KZZ4PU;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = xyz.helloyunho.CheckMyMobileSalt;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5500E7ED273FA8EF00099274 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"CheckMyMobileSalt/Preview Content\"";
+				DEVELOPMENT_TEAM = 32Z9KZZ4PU;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = xyz.helloyunho.CheckMyMobileSalt;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		5500E7EF273FA8EF00099274 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 32Z9KZZ4PU;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = xyz.helloyunho.CheckMyMobileSaltTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CheckMyMobileSalt.app/CheckMyMobileSalt";
+			};
+			name = Debug;
+		};
+		5500E7F0273FA8EF00099274 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 32Z9KZZ4PU;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = xyz.helloyunho.CheckMyMobileSaltTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CheckMyMobileSalt.app/CheckMyMobileSalt";
+			};
+			name = Release;
+		};
+		5500E7F2273FA8EF00099274 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 32Z9KZZ4PU;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = xyz.helloyunho.CheckMyMobileSaltUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CheckMyMobileSalt;
+			};
+			name = Debug;
+		};
+		5500E7F3273FA8EF00099274 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 32Z9KZZ4PU;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = xyz.helloyunho.CheckMyMobileSaltUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CheckMyMobileSalt;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5500E7C2273FA8EB00099274 /* Build configuration list for PBXProject "CheckMyMobileSalt" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5500E7E9273FA8EF00099274 /* Debug */,
+				5500E7EA273FA8EF00099274 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5500E7EB273FA8EF00099274 /* Build configuration list for PBXNativeTarget "CheckMyMobileSalt" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5500E7EC273FA8EF00099274 /* Debug */,
+				5500E7ED273FA8EF00099274 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5500E7EE273FA8EF00099274 /* Build configuration list for PBXNativeTarget "CheckMyMobileSaltTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5500E7EF273FA8EF00099274 /* Debug */,
+				5500E7F0273FA8EF00099274 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5500E7F1273FA8EF00099274 /* Build configuration list for PBXNativeTarget "CheckMyMobileSaltUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5500E7F2273FA8EF00099274 /* Debug */,
+				5500E7F3273FA8EF00099274 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5500E7BF273FA8EB00099274 /* Project object */;
+}

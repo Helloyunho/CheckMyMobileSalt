@@ -11,9 +11,6 @@
 		5500E7CD273FA8EB00099274 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5500E7CC273FA8EB00099274 /* ContentView.swift */; };
 		5500E7CF273FA8EF00099274 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5500E7CE273FA8EF00099274 /* Assets.xcassets */; };
 		5500E7D2273FA8EF00099274 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5500E7D1273FA8EF00099274 /* Preview Assets.xcassets */; };
-		5500E7DC273FA8EF00099274 /* CheckMyMobileSaltTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5500E7DB273FA8EF00099274 /* CheckMyMobileSaltTests.swift */; };
-		5500E7E6273FA8EF00099274 /* CheckMyMobileSaltUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5500E7E5273FA8EF00099274 /* CheckMyMobileSaltUITests.swift */; };
-		5500E7E8273FA8EF00099274 /* CheckMyMobileSaltUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5500E7E7273FA8EF00099274 /* CheckMyMobileSaltUITestsLaunchTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,10 +37,8 @@
 		5500E7CE273FA8EF00099274 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5500E7D1273FA8EF00099274 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		5500E7D7273FA8EF00099274 /* CheckMyMobileSaltTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CheckMyMobileSaltTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		5500E7DB273FA8EF00099274 /* CheckMyMobileSaltTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckMyMobileSaltTests.swift; sourceTree = "<group>"; };
 		5500E7E1273FA8EF00099274 /* CheckMyMobileSaltUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CheckMyMobileSaltUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		5500E7E5273FA8EF00099274 /* CheckMyMobileSaltUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckMyMobileSaltUITests.swift; sourceTree = "<group>"; };
-		5500E7E7273FA8EF00099274 /* CheckMyMobileSaltUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckMyMobileSaltUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		5500E7F4273FDE8B00099274 /* CheckMyMobileSalt-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CheckMyMobileSalt-Bridging-Header.h"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,8 +70,6 @@
 			isa = PBXGroup;
 			children = (
 				5500E7C9273FA8EB00099274 /* CheckMyMobileSalt */,
-				5500E7DA273FA8EF00099274 /* CheckMyMobileSaltTests */,
-				5500E7E4273FA8EF00099274 /* CheckMyMobileSaltUITests */,
 				5500E7C8273FA8EB00099274 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -98,6 +91,7 @@
 				5500E7CC273FA8EB00099274 /* ContentView.swift */,
 				5500E7CE273FA8EF00099274 /* Assets.xcassets */,
 				5500E7D0273FA8EF00099274 /* Preview Content */,
+				5500E7F4273FDE8B00099274 /* CheckMyMobileSalt-Bridging-Header.h */,
 			);
 			path = CheckMyMobileSalt;
 			sourceTree = "<group>";
@@ -108,23 +102,6 @@
 				5500E7D1273FA8EF00099274 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
-			sourceTree = "<group>";
-		};
-		5500E7DA273FA8EF00099274 /* CheckMyMobileSaltTests */ = {
-			isa = PBXGroup;
-			children = (
-				5500E7DB273FA8EF00099274 /* CheckMyMobileSaltTests.swift */,
-			);
-			path = CheckMyMobileSaltTests;
-			sourceTree = "<group>";
-		};
-		5500E7E4273FA8EF00099274 /* CheckMyMobileSaltUITests */ = {
-			isa = PBXGroup;
-			children = (
-				5500E7E5273FA8EF00099274 /* CheckMyMobileSaltUITests.swift */,
-				5500E7E7273FA8EF00099274 /* CheckMyMobileSaltUITestsLaunchTests.swift */,
-			);
-			path = CheckMyMobileSaltUITests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -195,6 +172,7 @@
 				TargetAttributes = {
 					5500E7C6273FA8EB00099274 = {
 						CreatedOnToolsVersion = 13.1;
+						LastSwiftMigration = 1310;
 					};
 					5500E7D6273FA8EF00099274 = {
 						CreatedOnToolsVersion = 13.1;
@@ -266,7 +244,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5500E7DC273FA8EF00099274 /* CheckMyMobileSaltTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -274,8 +251,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5500E7E6273FA8EF00099274 /* CheckMyMobileSaltUITests.swift in Sources */,
-				5500E7E8273FA8EF00099274 /* CheckMyMobileSaltUITestsLaunchTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -416,6 +391,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"CheckMyMobileSalt/Preview Content\"";
@@ -427,6 +403,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -435,6 +412,8 @@
 				PRODUCT_BUNDLE_IDENTIFIER = xyz.helloyunho.CheckMyMobileSalt;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "CheckMyMobileSalt/CheckMyMobileSalt-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -445,6 +424,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"CheckMyMobileSalt/Preview Content\"";
@@ -456,6 +436,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -464,6 +445,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = xyz.helloyunho.CheckMyMobileSalt;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "CheckMyMobileSalt/CheckMyMobileSalt-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};

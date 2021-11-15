@@ -15,6 +15,9 @@
 		5500E7FB273FEC8800099274 /* MobileSaltView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5500E7FA273FEC8800099274 /* MobileSaltView.swift */; };
 		5500E7FE273FEE2A00099274 /* MobileSaltListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5500E7FD273FEE2A00099274 /* MobileSaltListView.swift */; };
 		5500E802273FEE5C00099274 /* libMobileGestalt.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 5500E801273FEE5300099274 /* libMobileGestalt.tbd */; };
+		5575DB7C2741DCFB00A39B3F /* Makefile in Sources */ = {isa = PBXBuildFile; fileRef = 5575DB7B2741DCFB00A39B3F /* Makefile */; };
+		5575DB7E2741DD9E00A39B3F /* entitlements.xml in Resources */ = {isa = PBXBuildFile; fileRef = 5575DB7D2741DD9E00A39B3F /* entitlements.xml */; };
+		5575DB802741DF2100A39B3F /* control in Resources */ = {isa = PBXBuildFile; fileRef = 5575DB7F2741DF2100A39B3F /* control */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +33,9 @@
 		5500E7FF273FEE4400099274 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		5500E801273FEE5300099274 /* libMobileGestalt.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libMobileGestalt.tbd; path = usr/lib/libMobileGestalt.tbd; sourceTree = SDKROOT; };
 		5500E805273FEF5500099274 /* MobileGestalt.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MobileGestalt.h; sourceTree = "<group>"; };
+		5575DB7B2741DCFB00A39B3F /* Makefile */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.make; path = Makefile; sourceTree = "<group>"; };
+		5575DB7D2741DD9E00A39B3F /* entitlements.xml */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = entitlements.xml; sourceTree = "<group>"; };
+		5575DB7F2741DF2100A39B3F /* control */ = {isa = PBXFileReference; lastKnownFileType = text; path = control; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +53,9 @@
 		5500E7BE273FA8EB00099274 = {
 			isa = PBXGroup;
 			children = (
+				5575DB7F2741DF2100A39B3F /* control */,
+				5575DB7D2741DD9E00A39B3F /* entitlements.xml */,
+				5575DB7B2741DCFB00A39B3F /* Makefile */,
 				5500E7C9273FA8EB00099274 /* CheckMyMobileSalt */,
 				5500E7C8273FA8EB00099274 /* Products */,
 				5500E800273FEE5200099274 /* Frameworks */,
@@ -177,6 +186,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5575DB802741DF2100A39B3F /* control in Resources */,
+				5575DB7E2741DD9E00A39B3F /* entitlements.xml in Resources */,
 				5500E7D2273FA8EF00099274 /* Preview Assets.xcassets in Resources */,
 				5500E7CF273FA8EF00099274 /* Assets.xcassets in Resources */,
 			);
@@ -189,6 +200,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5575DB7C2741DCFB00A39B3F /* Makefile in Sources */,
 				5500E7CD273FA8EB00099274 /* ContentView.swift in Sources */,
 				5500E7CB273FA8EB00099274 /* CheckMyMobileSaltApp.swift in Sources */,
 				5500E7FE273FEE2A00099274 /* MobileSaltListView.swift in Sources */,
@@ -340,7 +352,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = xyz.helloyunho.CheckMyMobileSalt;
+				PRODUCT_BUNDLE_IDENTIFIER = "xyz.helloyunho.check-my-mobile-salt";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_OBJC_BRIDGING_HEADER = "CheckMyMobileSalt/CheckMyMobileSalt-Bridging-Header.h";
@@ -374,7 +386,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = xyz.helloyunho.CheckMyMobileSalt;
+				PRODUCT_BUNDLE_IDENTIFIER = "xyz.helloyunho.check-my-mobile-salt";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_OBJC_BRIDGING_HEADER = "CheckMyMobileSalt/CheckMyMobileSalt-Bridging-Header.h";

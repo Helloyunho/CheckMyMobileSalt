@@ -10,9 +10,15 @@ import SwiftUI
 struct MobileSaltView: View {
     var body: some View {
         List(Array(MappingTable.keys), id: \.self) { key in
-            let translated = MappingTable[key]!
-            let value = String(describing: MGCopyAnswer(key as CFString).takeUnretainedValue())
-            MobileSaltListView(key: key, translated: translated, value: value)
+            let translated: String? = MappingTable[key]!
+            let salt = MGCopyAnswer(key as CFString, nil)?.takeUnretainedValue()
+            if let salt = salt {
+                let value = String(describing: salt)
+                MobileSaltListView(key: key as String, translated: translated, value: value)
+            } else {
+                let value = "N/A"
+                MobileSaltListView(key: key as String, translated: translated, value: value)
+            }
         }
     }
 }

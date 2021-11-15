@@ -1,0 +1,9 @@
+Package: xyz.helloyunho.check-my-mobile-salt
+Name: CheckMyMobileSalt
+Version: 0.0.1
+Architecture: iphoneos-arm
+Description: Check your mobile salt easily.
+Maintainer: Helloyunho
+Author: Helloyunho
+Section: Applications
+Depends: firmware (>= 12.2)

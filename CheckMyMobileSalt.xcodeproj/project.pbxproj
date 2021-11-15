@@ -18,6 +18,7 @@
 		5575DB7C2741DCFB00A39B3F /* Makefile in Sources */ = {isa = PBXBuildFile; fileRef = 5575DB7B2741DCFB00A39B3F /* Makefile */; };
 		5575DB7E2741DD9E00A39B3F /* entitlements.xml in Resources */ = {isa = PBXBuildFile; fileRef = 5575DB7D2741DD9E00A39B3F /* entitlements.xml */; };
 		5575DB802741DF2100A39B3F /* control in Resources */ = {isa = PBXBuildFile; fileRef = 5575DB7F2741DF2100A39B3F /* control */; };
+		5575DB822741E6BF00A39B3F /* AboutView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5575DB812741E6BF00A39B3F /* AboutView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -36,6 +37,7 @@
 		5575DB7B2741DCFB00A39B3F /* Makefile */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.make; path = Makefile; sourceTree = "<group>"; };
 		5575DB7D2741DD9E00A39B3F /* entitlements.xml */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = entitlements.xml; sourceTree = "<group>"; };
 		5575DB7F2741DF2100A39B3F /* control */ = {isa = PBXFileReference; lastKnownFileType = text; path = control; sourceTree = "<group>"; };
+		5575DB812741E6BF00A39B3F /* AboutView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +101,7 @@
 			isa = PBXGroup;
 			children = (
 				5500E7FA273FEC8800099274 /* MobileSaltView.swift */,
+				5575DB812741E6BF00A39B3F /* AboutView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -201,6 +204,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				5575DB7C2741DCFB00A39B3F /* Makefile in Sources */,
+				5575DB822741E6BF00A39B3F /* AboutView.swift in Sources */,
 				5500E7CD273FA8EB00099274 /* ContentView.swift in Sources */,
 				5500E7CB273FA8EB00099274 /* CheckMyMobileSaltApp.swift in Sources */,
 				5500E7FE273FEE2A00099274 /* MobileSaltListView.swift in Sources */,
@@ -341,6 +345,7 @@
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = CheckMyMobileSalt/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = CMMS;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -375,6 +380,7 @@
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = CheckMyMobileSalt/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = CMMS;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;

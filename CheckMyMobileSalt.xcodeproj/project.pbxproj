@@ -11,24 +11,11 @@
 		5500E7CD273FA8EB00099274 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5500E7CC273FA8EB00099274 /* ContentView.swift */; };
 		5500E7CF273FA8EF00099274 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5500E7CE273FA8EF00099274 /* Assets.xcassets */; };
 		5500E7D2273FA8EF00099274 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5500E7D1273FA8EF00099274 /* Preview Assets.xcassets */; };
+		5500E7F8273FDFBA00099274 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5500E7F7273FDFBA00099274 /* Constants.swift */; };
+		5500E7FB273FEC8800099274 /* MobileSaltView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5500E7FA273FEC8800099274 /* MobileSaltView.swift */; };
+		5500E7FE273FEE2A00099274 /* MobileSaltListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5500E7FD273FEE2A00099274 /* MobileSaltListView.swift */; };
+		5500E802273FEE5C00099274 /* libMobileGestalt.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 5500E801273FEE5300099274 /* libMobileGestalt.tbd */; };
 /* End PBXBuildFile section */
-
-/* Begin PBXContainerItemProxy section */
-		5500E7D8273FA8EF00099274 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 5500E7BF273FA8EB00099274 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 5500E7C6273FA8EB00099274;
-			remoteInfo = CheckMyMobileSalt;
-		};
-		5500E7E2273FA8EF00099274 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 5500E7BF273FA8EB00099274 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 5500E7C6273FA8EB00099274;
-			remoteInfo = CheckMyMobileSalt;
-		};
-/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		5500E7C7273FA8EB00099274 /* CheckMyMobileSalt.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CheckMyMobileSalt.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -36,9 +23,13 @@
 		5500E7CC273FA8EB00099274 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		5500E7CE273FA8EF00099274 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5500E7D1273FA8EF00099274 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		5500E7D7273FA8EF00099274 /* CheckMyMobileSaltTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CheckMyMobileSaltTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		5500E7E1273FA8EF00099274 /* CheckMyMobileSaltUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CheckMyMobileSaltUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5500E7F4273FDE8B00099274 /* CheckMyMobileSalt-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CheckMyMobileSalt-Bridging-Header.h"; sourceTree = "<group>"; };
+		5500E7F7273FDFBA00099274 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		5500E7FA273FEC8800099274 /* MobileSaltView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MobileSaltView.swift; sourceTree = "<group>"; };
+		5500E7FD273FEE2A00099274 /* MobileSaltListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MobileSaltListView.swift; sourceTree = "<group>"; };
+		5500E7FF273FEE4400099274 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		5500E801273FEE5300099274 /* libMobileGestalt.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libMobileGestalt.tbd; path = usr/lib/libMobileGestalt.tbd; sourceTree = SDKROOT; };
+		5500E805273FEF5500099274 /* MobileGestalt.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MobileGestalt.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -46,20 +37,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		5500E7D4273FA8EF00099274 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		5500E7DE273FA8EF00099274 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
+				5500E802273FEE5C00099274 /* libMobileGestalt.tbd in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -71,6 +49,7 @@
 			children = (
 				5500E7C9273FA8EB00099274 /* CheckMyMobileSalt */,
 				5500E7C8273FA8EB00099274 /* Products */,
+				5500E800273FEE5200099274 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -78,8 +57,6 @@
 			isa = PBXGroup;
 			children = (
 				5500E7C7273FA8EB00099274 /* CheckMyMobileSalt.app */,
-				5500E7D7273FA8EF00099274 /* CheckMyMobileSaltTests.xctest */,
-				5500E7E1273FA8EF00099274 /* CheckMyMobileSaltUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -87,11 +64,16 @@
 		5500E7C9273FA8EB00099274 /* CheckMyMobileSalt */ = {
 			isa = PBXGroup;
 			children = (
+				5500E804273FEF4200099274 /* Headers */,
+				5500E7FF273FEE4400099274 /* Info.plist */,
+				5500E7FC273FEDCF00099274 /* Components */,
+				5500E7F9273FE23500099274 /* Views */,
 				5500E7CA273FA8EB00099274 /* CheckMyMobileSaltApp.swift */,
 				5500E7CC273FA8EB00099274 /* ContentView.swift */,
 				5500E7CE273FA8EF00099274 /* Assets.xcassets */,
 				5500E7D0273FA8EF00099274 /* Preview Content */,
 				5500E7F4273FDE8B00099274 /* CheckMyMobileSalt-Bridging-Header.h */,
+				5500E7F7273FDFBA00099274 /* Constants.swift */,
 			);
 			path = CheckMyMobileSalt;
 			sourceTree = "<group>";
@@ -102,6 +84,38 @@
 				5500E7D1273FA8EF00099274 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		5500E7F9273FE23500099274 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				5500E7FA273FEC8800099274 /* MobileSaltView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		5500E7FC273FEDCF00099274 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				5500E7FD273FEE2A00099274 /* MobileSaltListView.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		5500E800273FEE5200099274 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5500E801273FEE5300099274 /* libMobileGestalt.tbd */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5500E804273FEF4200099274 /* Headers */ = {
+			isa = PBXGroup;
+			children = (
+				5500E805273FEF5500099274 /* MobileGestalt.h */,
+			);
+			path = Headers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -124,42 +138,6 @@
 			productReference = 5500E7C7273FA8EB00099274 /* CheckMyMobileSalt.app */;
 			productType = "com.apple.product-type.application";
 		};
-		5500E7D6273FA8EF00099274 /* CheckMyMobileSaltTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 5500E7EE273FA8EF00099274 /* Build configuration list for PBXNativeTarget "CheckMyMobileSaltTests" */;
-			buildPhases = (
-				5500E7D3273FA8EF00099274 /* Sources */,
-				5500E7D4273FA8EF00099274 /* Frameworks */,
-				5500E7D5273FA8EF00099274 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				5500E7D9273FA8EF00099274 /* PBXTargetDependency */,
-			);
-			name = CheckMyMobileSaltTests;
-			productName = CheckMyMobileSaltTests;
-			productReference = 5500E7D7273FA8EF00099274 /* CheckMyMobileSaltTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
-		5500E7E0273FA8EF00099274 /* CheckMyMobileSaltUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 5500E7F1273FA8EF00099274 /* Build configuration list for PBXNativeTarget "CheckMyMobileSaltUITests" */;
-			buildPhases = (
-				5500E7DD273FA8EF00099274 /* Sources */,
-				5500E7DE273FA8EF00099274 /* Frameworks */,
-				5500E7DF273FA8EF00099274 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				5500E7E3273FA8EF00099274 /* PBXTargetDependency */,
-			);
-			name = CheckMyMobileSaltUITests;
-			productName = CheckMyMobileSaltUITests;
-			productReference = 5500E7E1273FA8EF00099274 /* CheckMyMobileSaltUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -173,14 +151,6 @@
 					5500E7C6273FA8EB00099274 = {
 						CreatedOnToolsVersion = 13.1;
 						LastSwiftMigration = 1310;
-					};
-					5500E7D6273FA8EF00099274 = {
-						CreatedOnToolsVersion = 13.1;
-						TestTargetID = 5500E7C6273FA8EB00099274;
-					};
-					5500E7E0273FA8EF00099274 = {
-						CreatedOnToolsVersion = 13.1;
-						TestTargetID = 5500E7C6273FA8EB00099274;
 					};
 				};
 			};
@@ -198,8 +168,6 @@
 			projectRoot = "";
 			targets = (
 				5500E7C6273FA8EB00099274 /* CheckMyMobileSalt */,
-				5500E7D6273FA8EF00099274 /* CheckMyMobileSaltTests */,
-				5500E7E0273FA8EF00099274 /* CheckMyMobileSaltUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -214,20 +182,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		5500E7D5273FA8EF00099274 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		5500E7DF273FA8EF00099274 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -237,37 +191,13 @@
 			files = (
 				5500E7CD273FA8EB00099274 /* ContentView.swift in Sources */,
 				5500E7CB273FA8EB00099274 /* CheckMyMobileSaltApp.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		5500E7D3273FA8EF00099274 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		5500E7DD273FA8EF00099274 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
+				5500E7FE273FEE2A00099274 /* MobileSaltListView.swift in Sources */,
+				5500E7F8273FDFBA00099274 /* Constants.swift in Sources */,
+				5500E7FB273FEC8800099274 /* MobileSaltView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		5500E7D9273FA8EF00099274 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 5500E7C6273FA8EB00099274 /* CheckMyMobileSalt */;
-			targetProxy = 5500E7D8273FA8EF00099274 /* PBXContainerItemProxy */;
-		};
-		5500E7E3273FA8EF00099274 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 5500E7C6273FA8EB00099274 /* CheckMyMobileSalt */;
-			targetProxy = 5500E7E2273FA8EF00099274 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		5500E7E9273FA8EF00099274 /* Debug */ = {
@@ -398,12 +328,13 @@
 				DEVELOPMENT_TEAM = 32Z9KZZ4PU;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = CheckMyMobileSalt/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -431,12 +362,13 @@
 				DEVELOPMENT_TEAM = 32Z9KZZ4PU;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = CheckMyMobileSalt/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -448,102 +380,6 @@
 				SWIFT_OBJC_BRIDGING_HEADER = "CheckMyMobileSalt/CheckMyMobileSalt-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Release;
-		};
-		5500E7EF273FA8EF00099274 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 32Z9KZZ4PU;
-				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = xyz.helloyunho.CheckMyMobileSaltTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CheckMyMobileSalt.app/CheckMyMobileSalt";
-			};
-			name = Debug;
-		};
-		5500E7F0273FA8EF00099274 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 32Z9KZZ4PU;
-				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = xyz.helloyunho.CheckMyMobileSaltTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CheckMyMobileSalt.app/CheckMyMobileSalt";
-			};
-			name = Release;
-		};
-		5500E7F2273FA8EF00099274 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 32Z9KZZ4PU;
-				GENERATE_INFOPLIST_FILE = YES;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = xyz.helloyunho.CheckMyMobileSaltUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = CheckMyMobileSalt;
-			};
-			name = Debug;
-		};
-		5500E7F3273FA8EF00099274 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 32Z9KZZ4PU;
-				GENERATE_INFOPLIST_FILE = YES;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = xyz.helloyunho.CheckMyMobileSaltUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = CheckMyMobileSalt;
 			};
 			name = Release;
 		};
@@ -564,24 +400,6 @@
 			buildConfigurations = (
 				5500E7EC273FA8EF00099274 /* Debug */,
 				5500E7ED273FA8EF00099274 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		5500E7EE273FA8EF00099274 /* Build configuration list for PBXNativeTarget "CheckMyMobileSaltTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				5500E7EF273FA8EF00099274 /* Debug */,
-				5500E7F0273FA8EF00099274 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		5500E7F1273FA8EF00099274 /* Build configuration list for PBXNativeTarget "CheckMyMobileSaltUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				5500E7F2273FA8EF00099274 /* Debug */,
-				5500E7F3273FA8EF00099274 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

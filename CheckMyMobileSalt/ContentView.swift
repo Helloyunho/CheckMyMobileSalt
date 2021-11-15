@@ -10,17 +10,24 @@ import SwiftUI
 struct ContentView: View {
     var body: some View {
         TabView {
-            MobileSaltView()
+            NavigationView {
+                MobileSaltView()
+                    .navigationTitle(Text("List"))
+            }
                 .tabItem {
                     Label("List", systemImage: "list.dash")
                 }
                 .tag(1)
-            AboutView()
+            NavigationView {
+                AboutView()
+                    .navigationTitle(Text("About"))
+            }
                 .tabItem {
                     Label("About", systemImage: "info.circle")
                 }
                 .tag(2)
         }
+        .edgesIgnoringSafeArea(.top)
     }
 }
 

@@ -1,8 +1,8 @@
 Package: xyz.helloyunho.check-my-mobile-salt
 Name: CheckMyMobileSalt
-Version: 0.0.1
+Version: 1.0.0
 Architecture: iphoneos-arm
-Description: Check your mobile salt easily.
+Description: Simple app to check your iDevice's mobilegestalt.
 Maintainer: Helloyunho
 Author: Helloyunho
 Section: Applications

@@ -38,7 +38,8 @@
 		5575DB7D2741DD9E00A39B3F /* entitlements.xml */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = entitlements.xml; sourceTree = "<group>"; };
 		5575DB7F2741DF2100A39B3F /* control */ = {isa = PBXFileReference; lastKnownFileType = text; path = control; sourceTree = "<group>"; };
 		5575DB812741E6BF00A39B3F /* AboutView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutView.swift; sourceTree = "<group>"; };
-		5575DB832741FF4C00A39B3F /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		5583BEBA27421E8D0095CBBB /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		55A6B74127453C2E0087EADD /* LICENSE */ = {isa = PBXFileReference; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,7 +57,8 @@
 		5500E7BE273FA8EB00099274 = {
 			isa = PBXGroup;
 			children = (
-				5575DB832741FF4C00A39B3F /* README.md */,
+				55A6B74127453C2E0087EADD /* LICENSE */,
+				5583BEBA27421E8D0095CBBB /* README.md */,
 				5575DB7F2741DF2100A39B3F /* control */,
 				5575DB7D2741DD9E00A39B3F /* entitlements.xml */,
 				5575DB7B2741DCFB00A39B3F /* Makefile */,
